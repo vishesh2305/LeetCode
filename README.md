@@ -1,8 +1,8 @@
 # LeetCode Solutions
 
-> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-03 01:30:38.
+> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-03 02:21:46.
 
-**Solved:** 5 · 🟢 Easy 1 · 🟡 Medium 4 · 🔴 Hard 0
+**Solved:** 6 · 🟢 Easy 1 · 🟡 Medium 5 · 🔴 Hard 0
 
 | # | Problem | Difficulty | Language(s) | Submissions | Last solved |
 | --- | --- | --- | --- | --- | --- |
@@ -11,3 +11,4 @@
 | 40 | [Combination Sum II](40-combination-sum-ii) | 🟡 Medium | Java | 1 | 2026-09-03 |
 | 142 | [Linked List Cycle II](142-linked-list-cycle-ii) | 🟡 Medium | Java | 1 | 2026-09-03 |
 | 143 | [Reorder List](143-reorder-list) | 🟡 Medium | Java | 1 | 2026-09-03 |
+| 216 | [Combination Sum III](216-combination-sum-iii) | 🟡 Medium | Java | 1 | 2026-09-03 |
