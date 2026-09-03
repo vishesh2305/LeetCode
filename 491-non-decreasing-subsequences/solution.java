@@ -2,9 +2,9 @@
 // https://leetcode.com/problems/non-decreasing-subsequences/
 // Difficulty: Medium
 // Language:   Java
-// Submitted:  2026-09-04 00:10:01
-// Runtime:    6 ms (beats 93.73%)
-// Memory:     51.8 MB (beats 98.87%)
+// Submitted:  2026-09-04 01:58:54
+// Runtime:    9 ms (beats 51.23%)
+// Memory:     52.1 MB (beats 95.77%)
 // Topics:     Array, Hash Table, Backtracking, Bit Manipulation
 
 class Solution {
@@ -14,21 +14,25 @@ class Solution {
         return result;
     }
 
-    private void helper(int[] nums, int index, List<Integer> ds){
-        if(ds.size() >= 2){
-            result.add(new ArrayList<>(ds));
+    private void helper(int[] nums, int index, List<Integer> current){
+        if(current.size() >= 2){
+            result.add(new ArrayList<>(current));
         }
 
-        if(index == nums.length) return;
+        if(index >= nums.length){
+            return;
+        }
 
         Set<Integer> seen = new HashSet<>();
-        for(int i= index; i<nums.length; i++){
-            if(seen.contains(nums[i]) || (!ds.isEmpty() && (nums[i] < ds.get(ds.size()-1)))) continue;
-            seen.add(nums[i]);
-            ds.add(nums[i]);
-            helper(nums, i+1, ds);
-            ds.remove(ds.size()-1);
-        }
 
+        for(int i=index; i<nums.length; i++){
+            if(seen.contains(nums[i]) || (!current.isEmpty() && nums[i] < current.get(current.size()-1))) continue;
+
+            seen.add(nums[i]);
+
+            current.add(nums[i]);
+            helper(nums, i+1, current);
+            current.remove(current.size()-1);
+        }
     }
 }
