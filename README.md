@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-06 13:52:51.
+> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-06 14:01:28.
 
 **Solved:** 12 · 🟢 Easy 2 · 🟡 Medium 9 · 🔴 Hard 1
 
@@ -15,6 +15,6 @@
 | 77 | [Combinations](77-combinations) | 🟡 Medium | Java | 1 | 2026-09-06 |
 | 142 | [Linked List Cycle II](142-linked-list-cycle-ii) | 🟡 Medium | Java | 1 | 2026-09-03 |
 | 143 | [Reorder List](143-reorder-list) | 🟡 Medium | Java | 1 | 2026-09-03 |
-| 216 | [Combination Sum III](216-combination-sum-iii) | 🟡 Medium | Java | 1 | 2026-09-03 |
+| 216 | [Combination Sum III](216-combination-sum-iii) | 🟡 Medium | Java | 2 | 2026-09-06 |
 | 392 | [Is Subsequence](392-is-subsequence) | 🟢 Easy | Java | 3 | 2026-09-05 |
 | 491 | [Non-decreasing Subsequences](491-non-decreasing-subsequences) | 🟡 Medium | Java | 4 | 2026-09-04 |
