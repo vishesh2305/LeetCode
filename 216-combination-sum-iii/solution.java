@@ -2,40 +2,39 @@
 // https://leetcode.com/problems/combination-sum-iii/
 // Difficulty: Medium
 // Language:   Java
-// Submitted:  2026-09-03 02:21:37
+// Submitted:  2026-09-06 14:01:21
 // Runtime:    0 ms (beats 100.00%)
-// Memory:     42 MB (beats 98.09%)
+// Memory:     42.3 MB (beats 65.18%)
 // Topics:     Array, Backtracking
 
 class Solution {
+    List<List<Integer>> result = new ArrayList<>();
+
     public List<List<Integer>> combinationSum3(int k, int n) {
-        List<List<Integer>> result = new ArrayList<>();
-        helper(k , n, 1, new ArrayList<>(), result);
+        helper(n, k , 1, new ArrayList<>());
         return result;
     }
 
-    private void helper(int k , int target,  int index, List<Integer> ds, List<List<Integer>> result){
-
-        if(ds.size() > k){
+    private void helper(int n, int k, int index, List<Integer> ds) {
+        if (ds.size() > k)
             return;
-        }
-        if(target == 0){
-            if(ds.size()==k){
+
+        if (ds.size() == k) {
+            if (n == 0) {
                 result.add(new ArrayList<>(ds));
             }
-            return; 
-        }
-
-        if(index > 9){
             return;
         }
 
+        if (index > 9)
+            return;
+
+        if (n == 0)
+            return;
 
         ds.add(index);
-        helper(k , target - index, index+1, ds, result);
-        ds.remove(ds.size()-1);
-
-        helper(k , target, index+1, ds, result); 
-
+        helper(n - index, k, index + 1, ds);
+        ds.remove(ds.size() - 1);
+        helper(n, k, index + 1, ds);
     }
 }
