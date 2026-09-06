@@ -2,9 +2,9 @@
 // https://leetcode.com/problems/permutations-ii/
 // Difficulty: Medium
 // Language:   Java
-// Submitted:  2026-09-05 03:33:01
-// Runtime:    3 ms (beats 92.97%)
-// Memory:     46.8 MB (beats 28.77%)
+// Submitted:  2026-09-06 12:20:14
+// Runtime:    3 ms (beats 93.00%)
+// Memory:     46.7 MB (beats 43.10%)
 // Topics:     Array, Backtracking, Sorting
 
 class Solution {
@@ -15,22 +15,20 @@ class Solution {
         helper(nums, used, new ArrayList<>());
         return result;
     }
-    
-    private void helper(int[] nums, boolean[] used, List<Integer> current){
-        if(current.size() == nums.length){
-            result.add(new ArrayList<>(current));
+
+    private void helper(int[] nums, boolean[] used, List<Integer> ds){
+        if(ds.size()== nums.length){
+            result.add(new ArrayList<>(ds));
             return;
         }
 
         for(int i=0; i<nums.length; i++){
-            if(used[i]) continue;
-            if(i>0 && !used[i-1] && nums[i-1] == nums[i]){
-                continue;
-            }
-            current.add(nums[i]);
+            if(used[i] || (i > 0 && !used[i-1] && nums[i] == nums[i-1])) continue;
+
+            ds.add(nums[i]);
             used[i] = true;
-            helper(nums, used, current);
-            current.remove(current.size()-1);
+            helper(nums, used, ds);
+            ds.remove(ds.size()-1);
             used[i] = false;
         }
     }
