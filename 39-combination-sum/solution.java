@@ -2,9 +2,9 @@
 // https://leetcode.com/problems/combination-sum/
 // Difficulty: Medium
 // Language:   Java
-// Submitted:  2026-09-03 01:21:28
-// Runtime:    1 ms (beats 99.97%)
-// Memory:     46 MB (beats 9.69%)
+// Submitted:  2026-09-06 13:35:57
+// Runtime:    2 ms (beats 95.13%)
+// Memory:     45.1 MB (beats 98.94%)
 // Topics:     Array, Backtracking
 
 class Solution {
@@ -16,16 +16,15 @@ class Solution {
 
     private void helper(int[] candidates, int target, int index, List<Integer> ds){
         if(index == candidates.length){
-            if(target== 0){
+            if(target==0){
                 result.add(new ArrayList<>(ds));
-                return;
             }
             return;
         }
 
         if(candidates[index] <= target){
             ds.add(candidates[index]);
-            helper(candidates, target-candidates[index], index, ds);
+            helper(candidates, target - candidates[index], index, ds);
             ds.remove(ds.size()-1);
         }
         helper(candidates, target, index+1, ds);
