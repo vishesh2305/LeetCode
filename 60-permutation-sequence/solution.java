@@ -2,9 +2,9 @@
 // https://leetcode.com/problems/permutation-sequence/
 // Difficulty: Hard
 // Language:   Java
-// Submitted:  2026-09-06 13:08:26
+// Submitted:  2026-09-06 13:21:47
 // Runtime:    1 ms (beats 99.46%)
-// Memory:     42.8 MB (beats 73.63%)
+// Memory:     42.7 MB (beats 73.63%)
 // Topics:     Math, Recursion
 
 class Solution {
@@ -26,10 +26,14 @@ class Solution {
 
         for(int i=0; i<n; i++){
             int index = k / fact;
+
             sb.append(numbers.get(index));
             numbers.remove(index);
+
             if(i==n-1) break;
+
             k = k % fact;
+
             fact = fact / (n-i-1);
         }
 
