@@ -2,9 +2,9 @@
 // https://leetcode.com/problems/two-sum/
 // Difficulty: Easy
 // Language:   Java
-// Submitted:  2026-09-03 01:14:41
-// Runtime:    2 ms (beats 99.35%)
-// Memory:     47.1 MB (beats 59.33%)
+// Submitted:  2026-09-08 00:16:18
+// Runtime:    2 ms (beats 99.36%)
+// Memory:     47 MB (beats 74.23%)
 // Topics:     Array, Hash Table
 
 class Solution {
