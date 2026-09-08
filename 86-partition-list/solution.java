@@ -2,9 +2,9 @@
 // https://leetcode.com/problems/partition-list/
 // Difficulty: Medium
 // Language:   Java
-// Submitted:  2026-09-08 19:45:38
+// Submitted:  2026-09-09 00:25:13
 // Runtime:    0 ms (beats 100.00%)
-// Memory:     43.7 MB (beats 68.19%)
+// Memory:     43.8 MB (beats 49.99%)
 // Topics:     Linked List, Two Pointers
 
 /**
@@ -20,28 +20,28 @@
 class Solution {
     public ListNode partition(ListNode head, int x) {
 
-        ListNode smallDummy = new ListNode(0);
+        ListNode dummy_small = new ListNode(0);
+        ListNode dummy_greater = new ListNode(0);
 
-        ListNode bigDummy = new ListNode(0);
-
-        ListNode small = smallDummy;
-        ListNode big = bigDummy;
+        ListNode small = dummy_small;
+        ListNode greater = dummy_greater;
 
         ListNode temp = head;
 
         while(temp != null){
             if(temp.val >= x){
-                big.next = new ListNode(temp.val);
-                big = big.next;
+                greater.next = new ListNode(temp.val);
+                greater = greater.next;
             }else{
                 small.next = new ListNode(temp.val);
                 small = small.next;
             }
             temp = temp.next;
         }
-        small.next = bigDummy.next;
 
-        return smallDummy.next;
+        small.next = dummy_greater.next;
+
+        return dummy_small.next;
         
     }
 }
