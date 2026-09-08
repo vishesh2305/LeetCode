@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-09 00:25:21.
+> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-09 00:41:13.
 
 **Solved:** 17 · 🟢 Easy 2 · 🟡 Medium 14 · 🔴 Hard 1
 
@@ -16,7 +16,7 @@
 | 60 | [Permutation Sequence](60-permutation-sequence) | 🔴 Hard | Java | 5 | 2026-09-06 |
 | 77 | [Combinations](77-combinations) | 🟡 Medium | Java | 1 | 2026-09-06 |
 | 86 | [Partition List](86-partition-list) | 🟡 Medium | Java | 2 | 2026-09-09 |
-| 92 | [Reverse Linked List II](92-reverse-linked-list-ii) | 🟡 Medium | Java | 1 | 2026-09-08 |
+| 92 | [Reverse Linked List II](92-reverse-linked-list-ii) | 🟡 Medium | Java | 2 | 2026-09-09 |
 | 131 | [Palindrome Partitioning](131-palindrome-partitioning) | 🟡 Medium | Java | 2 | 2026-09-08 |
 | 142 | [Linked List Cycle II](142-linked-list-cycle-ii) | 🟡 Medium | Java | 1 | 2026-09-03 |
 | 143 | [Reorder List](143-reorder-list) | 🟡 Medium | Java | 1 | 2026-09-03 |
