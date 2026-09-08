@@ -2,9 +2,9 @@
 // https://leetcode.com/problems/reverse-linked-list-ii/
 // Difficulty: Medium
 // Language:   Java
-// Submitted:  2026-09-08 20:13:41
+// Submitted:  2026-09-09 00:41:02
 // Runtime:    0 ms (beats 100.00%)
-// Memory:     43.1 MB (beats 48.65%)
+// Memory:     43 MB (beats 66.98%)
 // Topics:     Linked List
 
 /**
@@ -20,27 +20,39 @@
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
         if(head==null || left == right) return head;
-        
+
         ListNode dummy = new ListNode(0);
+
         dummy.next = head;
 
         ListNode beforestart = dummy;
 
-        for(int i=1; i<left; i++){
+        for(int i= 1; i<left; i++){
             beforestart = beforestart.next;
         }
 
         ListNode start = beforestart.next;
 
-        ListNode current = start.next;
+        ListNode current = start;
 
-        for(int i=0; i<right-left; i++){
-            start.next = current.next;
-            current.next = beforestart.next;
-            beforestart.next = current;
-            current = start.next;
-        }
+        ListNode prev = null;
+        ListNode next = null;
+
+        for(int i=0; i<=right-left; i++){
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        };
+
+        beforestart.next = prev;
+
+        start.next = current;
+
+
+
+
         return dummy.next;
+
     }
-    
 }
