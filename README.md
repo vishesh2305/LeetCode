@@ -1,8 +1,8 @@
 # LeetCode Solutions
 
-> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-09 00:41:13.
+> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-09 01:26:32.
 
-**Solved:** 17 · 🟢 Easy 2 · 🟡 Medium 14 · 🔴 Hard 1
+**Solved:** 18 · 🟢 Easy 2 · 🟡 Medium 15 · 🔴 Hard 1
 
 | # | Problem | Difficulty | Language(s) | Submissions | Last solved |
 | --- | --- | --- | --- | --- | --- |
@@ -18,6 +18,7 @@
 | 86 | [Partition List](86-partition-list) | 🟡 Medium | Java | 2 | 2026-09-09 |
 | 92 | [Reverse Linked List II](92-reverse-linked-list-ii) | 🟡 Medium | Java | 2 | 2026-09-09 |
 | 131 | [Palindrome Partitioning](131-palindrome-partitioning) | 🟡 Medium | Java | 2 | 2026-09-08 |
+| 138 | [Copy List with Random Pointer](138-copy-list-with-random-pointer) | 🟡 Medium | Java | 1 | 2026-09-09 |
 | 142 | [Linked List Cycle II](142-linked-list-cycle-ii) | 🟡 Medium | Java | 1 | 2026-09-03 |
 | 143 | [Reorder List](143-reorder-list) | 🟡 Medium | Java | 1 | 2026-09-03 |
 | 216 | [Combination Sum III](216-combination-sum-iii) | 🟡 Medium | Java | 2 | 2026-09-06 |
