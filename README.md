@@ -1,8 +1,8 @@
 # LeetCode Solutions
 
-> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-08 03:26:09.
+> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-08 19:45:48.
 
-**Solved:** 15 · 🟢 Easy 2 · 🟡 Medium 12 · 🔴 Hard 1
+**Solved:** 16 · 🟢 Easy 2 · 🟡 Medium 13 · 🔴 Hard 1
 
 | # | Problem | Difficulty | Language(s) | Submissions | Last solved |
 | --- | --- | --- | --- | --- | --- |
@@ -15,7 +15,8 @@
 | 47 | [Permutations II](47-permutations-ii) | 🟡 Medium | Java | 3 | 2026-09-06 |
 | 60 | [Permutation Sequence](60-permutation-sequence) | 🔴 Hard | Java | 5 | 2026-09-06 |
 | 77 | [Combinations](77-combinations) | 🟡 Medium | Java | 1 | 2026-09-06 |
-| 131 | [Palindrome Partitioning](131-palindrome-partitioning) | 🟡 Medium | Java | 1 | 2026-09-08 |
+| 86 | [Partition List](86-partition-list) | 🟡 Medium | Java | 1 | 2026-09-08 |
+| 131 | [Palindrome Partitioning](131-palindrome-partitioning) | 🟡 Medium | Java | 2 | 2026-09-08 |
 | 142 | [Linked List Cycle II](142-linked-list-cycle-ii) | 🟡 Medium | Java | 1 | 2026-09-03 |
 | 143 | [Reorder List](143-reorder-list) | 🟡 Medium | Java | 1 | 2026-09-03 |
 | 216 | [Combination Sum III](216-combination-sum-iii) | 🟡 Medium | Java | 2 | 2026-09-06 |
