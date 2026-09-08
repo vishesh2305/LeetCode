@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-09 03:11:03.
+> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-09 03:22:34.
 
 **Solved:** 19 · 🟢 Easy 2 · 🟡 Medium 16 · 🔴 Hard 1
 
@@ -17,7 +17,7 @@
 | 77 | [Combinations](77-combinations) | 🟡 Medium | Java | 1 | 2026-09-06 |
 | 86 | [Partition List](86-partition-list) | 🟡 Medium | Java | 2 | 2026-09-09 |
 | 92 | [Reverse Linked List II](92-reverse-linked-list-ii) | 🟡 Medium | Java | 2 | 2026-09-09 |
-| 93 | [Restore IP Addresses](93-restore-ip-addresses) | 🟡 Medium | Java | 1 | 2026-09-09 |
+| 93 | [Restore IP Addresses](93-restore-ip-addresses) | 🟡 Medium | Java | 3 | 2026-09-09 |
 | 131 | [Palindrome Partitioning](131-palindrome-partitioning) | 🟡 Medium | Java | 2 | 2026-09-08 |
 | 138 | [Copy List with Random Pointer](138-copy-list-with-random-pointer) | 🟡 Medium | Java | 2 | 2026-09-09 |
 | 142 | [Linked List Cycle II](142-linked-list-cycle-ii) | 🟡 Medium | Java | 1 | 2026-09-03 |
