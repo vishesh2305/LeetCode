@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-09 20:07:25.
+> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-09 20:39:33.
 
 **Solved:** 20 · 🟢 Easy 2 · 🟡 Medium 17 · 🔴 Hard 1
 
@@ -11,7 +11,7 @@
 | 22 | [Generate Parentheses](22-generate-parentheses) | 🟡 Medium | Java | 2 | 2026-09-08 |
 | 39 | [Combination Sum](39-combination-sum) | 🟡 Medium | Java | 2 | 2026-09-06 |
 | 40 | [Combination Sum II](40-combination-sum-ii) | 🟡 Medium | Java | 2 | 2026-09-06 |
-| 46 | [Permutations](46-permutations) | 🟡 Medium | Java | 3 | 2026-09-06 |
+| 46 | [Permutations](46-permutations) | 🟡 Medium | Java | 4 | 2026-09-09 |
 | 47 | [Permutations II](47-permutations-ii) | 🟡 Medium | Java | 3 | 2026-09-06 |
 | 60 | [Permutation Sequence](60-permutation-sequence) | 🔴 Hard | Java | 5 | 2026-09-06 |
 | 77 | [Combinations](77-combinations) | 🟡 Medium | Java | 1 | 2026-09-06 |
