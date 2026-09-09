@@ -1,8 +1,8 @@
 # LeetCode Solutions
 
-> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-10 02:11:42.
+> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-10 03:09:00.
 
-**Solved:** 21 · 🟢 Easy 2 · 🟡 Medium 18 · 🔴 Hard 1
+**Solved:** 22 · 🟢 Easy 3 · 🟡 Medium 18 · 🔴 Hard 1
 
 | # | Problem | Difficulty | Language(s) | Submissions | Last solved |
 | --- | --- | --- | --- | --- | --- |
@@ -27,3 +27,4 @@
 | 216 | [Combination Sum III](216-combination-sum-iii) | 🟡 Medium | Java | 2 | 2026-09-06 |
 | 392 | [Is Subsequence](392-is-subsequence) | 🟢 Easy | Java | 3 | 2026-09-05 |
 | 491 | [Non-decreasing Subsequences](491-non-decreasing-subsequences) | 🟡 Medium | Java | 4 | 2026-09-04 |
+| 733 | [Flood Fill](733-flood-fill) | 🟢 Easy | Java | 1 | 2026-09-10 |
