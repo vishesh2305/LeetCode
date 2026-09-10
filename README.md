@@ -1,8 +1,8 @@
 # LeetCode Solutions
 
-> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-10 03:09:00.
+> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-11 02:52:33.
 
-**Solved:** 22 · 🟢 Easy 3 · 🟡 Medium 18 · 🔴 Hard 1
+**Solved:** 23 · 🟢 Easy 3 · 🟡 Medium 19 · 🔴 Hard 1
 
 | # | Problem | Difficulty | Language(s) | Submissions | Last solved |
 | --- | --- | --- | --- | --- | --- |
@@ -24,6 +24,7 @@
 | 138 | [Copy List with Random Pointer](138-copy-list-with-random-pointer) | 🟡 Medium | Java | 2 | 2026-09-09 |
 | 142 | [Linked List Cycle II](142-linked-list-cycle-ii) | 🟡 Medium | Java | 1 | 2026-09-03 |
 | 143 | [Reorder List](143-reorder-list) | 🟡 Medium | Java | 1 | 2026-09-03 |
+| 200 | [Number of Islands](200-number-of-islands) | 🟡 Medium | Java | 1 | 2026-09-11 |
 | 216 | [Combination Sum III](216-combination-sum-iii) | 🟡 Medium | Java | 2 | 2026-09-06 |
 | 392 | [Is Subsequence](392-is-subsequence) | 🟢 Easy | Java | 3 | 2026-09-05 |
 | 491 | [Non-decreasing Subsequences](491-non-decreasing-subsequences) | 🟡 Medium | Java | 4 | 2026-09-04 |
