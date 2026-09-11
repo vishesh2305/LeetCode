@@ -1,8 +1,8 @@
 # LeetCode Solutions
 
-> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-11 20:38:22.
+> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-12 05:20:13.
 
-**Solved:** 24 · 🟢 Easy 3 · 🟡 Medium 19 · 🔴 Hard 2
+**Solved:** 25 · 🟢 Easy 4 · 🟡 Medium 19 · 🔴 Hard 2
 
 | # | Problem | Difficulty | Language(s) | Submissions | Last solved |
 | --- | --- | --- | --- | --- | --- |
@@ -19,6 +19,7 @@
 | 77 | [Combinations](77-combinations) | 🟡 Medium | Java | 1 | 2026-09-06 |
 | 78 | [Subsets](78-subsets) | 🟡 Medium | Java | 1 | 2026-09-09 |
 | 86 | [Partition List](86-partition-list) | 🟡 Medium | Java | 2 | 2026-09-09 |
+| 88 | [Merge Sorted Array](88-merge-sorted-array) | 🟢 Easy | Java | 1 | 2026-09-12 |
 | 92 | [Reverse Linked List II](92-reverse-linked-list-ii) | 🟡 Medium | Java | 2 | 2026-09-09 |
 | 93 | [Restore IP Addresses](93-restore-ip-addresses) | 🟡 Medium | Java | 3 | 2026-09-09 |
 | 131 | [Palindrome Partitioning](131-palindrome-partitioning) | 🟡 Medium | Java | 2 | 2026-09-08 |
