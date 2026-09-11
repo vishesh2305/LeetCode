@@ -1,8 +1,8 @@
 # LeetCode Solutions
 
-> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-11 03:08:45.
+> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-11 20:38:22.
 
-**Solved:** 23 · 🟢 Easy 3 · 🟡 Medium 19 · 🔴 Hard 1
+**Solved:** 24 · 🟢 Easy 3 · 🟡 Medium 19 · 🔴 Hard 2
 
 | # | Problem | Difficulty | Language(s) | Submissions | Last solved |
 | --- | --- | --- | --- | --- | --- |
@@ -13,6 +13,7 @@
 | 40 | [Combination Sum II](40-combination-sum-ii) | 🟡 Medium | Java | 2 | 2026-09-06 |
 | 46 | [Permutations](46-permutations) | 🟡 Medium | Java | 4 | 2026-09-09 |
 | 47 | [Permutations II](47-permutations-ii) | 🟡 Medium | Java | 3 | 2026-09-06 |
+| 51 | [N-Queens](51-n-queens) | 🔴 Hard | Java | 1 | 2026-09-11 |
 | 60 | [Permutation Sequence](60-permutation-sequence) | 🔴 Hard | Java | 5 | 2026-09-06 |
 | 62 | [Unique Paths](62-unique-paths) | 🟡 Medium | Java | 2 | 2026-09-10 |
 | 77 | [Combinations](77-combinations) | 🟡 Medium | Java | 1 | 2026-09-06 |
