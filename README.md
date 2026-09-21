@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-22 02:49:19.
+> Auto-synced from LeetCode by the LeetHub Sync browser extension. Last updated 2026-09-22 03:03:00.
 
 **Solved:** 193 · 🟢 Easy 93 · 🟡 Medium 92 · 🔴 Hard 8
 
@@ -52,7 +52,7 @@
 | 76 | [Minimum Window Substring](76-minimum-window-substring) | 🔴 Hard | Java | 1 | 2026-09-16 |
 | 77 | [Combinations](77-combinations) | 🟡 Medium | Java | 1 | 2026-09-06 |
 | 78 | [Subsets](78-subsets) | 🟡 Medium | Java | 1 | 2026-09-09 |
-| 79 | [Word Search](79-word-search) | 🟡 Medium | Java | 1 | 2026-09-22 |
+| 79 | [Word Search](79-word-search) | 🟡 Medium | Java | 2 | 2026-09-22 |
 | 80 | [Remove Duplicates from Sorted Array II](80-remove-duplicates-from-sorted-array-ii) | 🟡 Medium | Java | 1 | 2026-09-16 |
 | 83 | [Remove Duplicates from Sorted List](83-remove-duplicates-from-sorted-list) | 🟢 Easy | C++ | 1 | 2026-09-16 |
 | 86 | [Partition List](86-partition-list) | 🟡 Medium | Java | 2 | 2026-09-09 |
