@@ -3,8 +3,8 @@
 // Difficulty: Medium
 // Language:   Java
 // Submitted:  2026-05-15 21:46:37
-// Runtime:    1 ms (beats 26.88%)
-// Memory:     42.7 MB (beats 67.97%)
+// Runtime:    1 ms (beats 25.41%)
+// Memory:     42.7 MB (beats 67.86%)
 // Topics:     String, Dynamic Programming, Stack, Greedy, Bracket Sequences
 
 class Solution {
