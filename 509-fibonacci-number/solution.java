@@ -2,19 +2,17 @@
 // https://leetcode.com/problems/fibonacci-number/
 // Difficulty: Easy
 // Language:   Java
-// Submitted:  2026-08-25 02:17:46
-// Runtime:    9 ms (beats 41.91%)
-// Memory:     42.4 MB (beats 5.08%)
+// Submitted:  2026-10-05 23:54:28
+// Runtime:    9 ms (beats 40.34%)
+// Memory:     41.8 MB (beats 57.02%)
 // Topics:     Math, Dynamic Programming, Recursion, Memoization
 
 class Solution {
     public int fib(int n) {
 
-        if(n <= 1){
-            return n;
-        }
+        if(n<=1) return n;
 
-        return fib(n-1) + fib(n-2);
+        return fib(n-1)+fib(n-2);
         
     }
 }
