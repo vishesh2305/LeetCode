@@ -2,33 +2,35 @@
 // https://leetcode.com/problems/top-k-frequent-elements/
 // Difficulty: Medium
 // Language:   Java
-// Submitted:  2026-03-31 02:20:37
-// Runtime:    16 ms (beats 39.11%)
-// Memory:     47.6 MB (beats 49.68%)
+// Submitted:  2026-11-15 17:57:12
+// Runtime:    16 ms (beats 46.66%)
+// Memory:     47.2 MB (beats 73.17%)
 // Topics:     Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect
 
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
 
-    int n= nums.length;
+        for(int i : nums){
+            map.put(i, map.getOrDefault(i, 0)+1);
+        }
 
-    HashMap<Integer, Integer> map = new HashMap<>();
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a,b) -> map.get(a) - map.get(b));
 
-    for(int num : nums){
-    map.put(num, map.getOrDefault(num, 0)+1);
+        for(int i : map.keySet()){
+            pq.add(i);
+
+            if(pq.size() > k){
+                pq.remove();
+            }
+        }
+
+        int[] result = new int[k];
+
+        for(int i=0; i<k; i++){
+            result[i] = pq.remove();
+        }
+
+        return result;
     }
-
-    ArrayList<Integer> list = new ArrayList<>(map.keySet());
-
-    Collections.sort(list, (a , b) -> map.get(b) - map.get(a));
-
-    int[] result = new int[k];
-
-    for(int i=0; i<k; i++){
-        result[i] = list.get(i);
-    }
-
-    return result;
-    }
-
 }
