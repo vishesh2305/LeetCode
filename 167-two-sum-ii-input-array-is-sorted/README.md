@@ -3,11 +3,13 @@
 **Difficulty:** Medium  
 **Link:** [https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)  
 **Topics:** `Array`, `Two Pointers`, `Binary Search`  
-**Acceptance:** 65.9%
+**Acceptance:** 66.1%
 
 ---
 
-Given a **1-indexed** array of integers `numbers` that is already **_sorted in non-decreasing order_**, find two numbers such that they add up to a specific `target` number. Let these two numbers be `numbers[index1]` and `numbers[index2]` where `1 Return_ the indices of the two numbers _`index1`_ and _`index2`_, **each incremented by one,** as an integer array _`[index1, index2]`_ of length 2._
+You are given a **1-indexed** array of integers `numbers` that is already **sorted in non-decreasing order**.
+
+Find **two** numbers such that they add up to a specific `target` number. Let these two numbers be `numbers[index1]` and `numbers[index2]` where `1 Return the indices of the two numbers `index1` and `index2` as an integer array `[index1, index2]` of length 2.
 
 The tests are generated such that there is **exactly one solution**. You **may not** use the same element twice.
 
