@@ -3,7 +3,7 @@
 **Difficulty:** Medium  
 **Link:** [https://leetcode.com/problems/minimum-size-subarray-sum/](https://leetcode.com/problems/minimum-size-subarray-sum/)  
 **Topics:** `Array`, `Binary Search`, `Sliding Window`, `Prefix Sum`  
-**Acceptance:** 52.9%
+**Acceptance:** 53.3%
 
 ---
 
