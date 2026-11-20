@@ -3,8 +3,8 @@
 // Difficulty: Medium
 // Language:   Java
 // Submitted:  2026-04-28 04:18:30
-// Runtime:    50 ms (beats 77.94%)
-// Memory:     52.1 MB (beats 83.14%)
+// Runtime:    50 ms (beats 83.51%)
+// Memory:     52.1 MB (beats 47.36%)
 // Topics:     Array, Math, Design, Randomized
 
 class Solution {
