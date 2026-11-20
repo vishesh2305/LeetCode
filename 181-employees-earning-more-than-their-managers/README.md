@@ -3,7 +3,7 @@
 **Difficulty:** Easy  
 **Link:** [https://leetcode.com/problems/employees-earning-more-than-their-managers/](https://leetcode.com/problems/employees-earning-more-than-their-managers/)  
 **Topics:** `Database`  
-**Acceptance:** 74.0%
+**Acceptance:** 74.1%
 
 ---
 
