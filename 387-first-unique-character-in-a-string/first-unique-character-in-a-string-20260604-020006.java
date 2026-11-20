@@ -3,8 +3,8 @@
 // Difficulty: Easy
 // Language:   Java
 // Submitted:  2026-06-04 02:00:06
-// Runtime:    5 ms (beats 98.24%)
-// Memory:     47.4 MB (beats 5.96%)
+// Runtime:    5 ms (beats 98.74%)
+// Memory:     47.4 MB (beats 8.64%)
 // Topics:     Hash Table, String, Queue, Counting
 
 class Solution {
