@@ -3,8 +3,8 @@
 // Difficulty: Medium
 // Language:   Java
 // Submitted:  2026-07-29 00:35:23
-// Runtime:    6 ms (beats 96.98%)
-// Memory:     47.5 MB (beats 74.26%)
+// Runtime:    6 ms (beats 98.45%)
+// Memory:     47.5 MB (beats 39.55%)
 // Topics:     Tree, Depth-First Search, Binary Search Tree, Binary Tree, Binary Lifting, Lowest Common Ancestor
 
 /**
