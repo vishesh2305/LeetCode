@@ -3,7 +3,7 @@
 **Difficulty:** Easy  
 **Link:** [https://leetcode.com/problems/max-consecutive-ones/](https://leetcode.com/problems/max-consecutive-ones/)  
 **Topics:** `Array`  
-**Acceptance:** 66.1%
+**Acceptance:** 66.4%
 
 ---
 
