@@ -2,41 +2,33 @@
 // https://leetcode.com/problems/sliding-window-maximum/
 // Difficulty: Hard
 // Language:   Java
-// Submitted:  2026-08-27 03:32:30
-// Runtime:    29 ms (beats 84.61%)
-// Memory:     146.9 MB (beats 42.82%)
+// Submitted:  2026-10-14 13:17:28
+// Runtime:    31 ms (beats 52.74%)
+// Memory:     146.2 MB (beats 51.24%)
 // Topics:     Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue, Range Minimum/Maximum Query
 
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
-
-        int n = nums.length;
+        int[] result = new int[nums.length - k + 1];
 
         Deque<Integer> dq = new ArrayDeque<>();
-
         int index =0;
 
-        int[] result = new int[n-k+1];
-
-
-        for(int i=0; i<n; i++){
-
+        for(int i=0; i<nums.length; i++){
             if(!dq.isEmpty() && dq.peekFirst() <= i-k){
-                dq.pollFirst();
+                dq.removeFirst();
             }
 
             while(!dq.isEmpty() && nums[dq.peekLast()] < nums[i]){
-                dq.pollLast();
+                dq.removeLast();
             }
 
-            dq.offerLast(i);
+            dq.addLast(i);
 
             if(i >= k-1){
                 result[index++] = nums[dq.peekFirst()];
             }
         }
-
         return result;
-        
     }
 }
