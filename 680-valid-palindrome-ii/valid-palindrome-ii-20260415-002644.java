@@ -3,8 +3,8 @@
 // Difficulty: Easy
 // Language:   Java
 // Submitted:  2026-04-15 00:26:44
-// Runtime:    8 ms (beats 5.86%)
-// Memory:     47.6 MB (beats 85.09%)
+// Runtime:    8 ms (beats 6.03%)
+// Memory:     47.6 MB (beats 47.52%)
 // Topics:     Two Pointers, String, Greedy
 
 class Solution {
