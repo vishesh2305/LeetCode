@@ -3,8 +3,8 @@
 // Difficulty: Easy
 // Language:   Java
 // Submitted:  2026-05-18 18:43:22
-// Runtime:    6 ms (beats 25.83%)
-// Memory:     47.6 MB (beats 11.87%)
+// Runtime:    6 ms (beats 27.92%)
+// Memory:     47.6 MB (beats 7.18%)
 // Topics:     Array, Hash Table, Math, Matrix
 
 class Solution {
