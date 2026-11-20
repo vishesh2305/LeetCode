@@ -3,7 +3,7 @@
 **Difficulty:** Medium  
 **Link:** [https://leetcode.com/problems/add-two-numbers/](https://leetcode.com/problems/add-two-numbers/)  
 **Topics:** `Linked List`, `Math`, `Recursion`  
-**Acceptance:** 49.3%
+**Acceptance:** 49.7%
 
 ---
 
