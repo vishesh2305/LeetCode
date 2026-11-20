@@ -2,26 +2,27 @@
 // https://leetcode.com/problems/merge-intervals/
 // Difficulty: Medium
 // Language:   Java
-// Submitted:  2026-07-02 15:46:48
-// Runtime:    8 ms (beats 89.75%)
-// Memory:     48.9 MB (beats 85.10%)
+// Submitted:  2026-11-20 11:03:00
+// Runtime:    8 ms (beats 93.62%)
+// Memory:     49 MB (beats 39.79%)
 // Topics:     Array, Sorting, Quicksort
 
 class Solution {
     public int[][] merge(int[][] intervals) {
+        Arrays.sort(intervals, (a,b) -> Integer.compare(a[0], b[0]));
 
-        Arrays.sort(intervals, (a,b)-> Integer.compare(a[0], b[0]));
-
-        LinkedList<int[]> merged = new LinkedList<>();
+        List<int[]> result = new ArrayList<>();
 
         for(int[] interval : intervals){
-            if(merged.isEmpty() || (merged.getLast()[1] < interval[0])){
-                merged.add(interval);
+            if(result.isEmpty() || result.getLast()[1] < interval[0]){
+                result.add(interval);
             }else{
-                merged.getLast()[1] = Math.max(merged.getLast()[1], interval[1]);
+                result.getLast()[1] = Math.max(interval[1], result.getLast()[1]);
             }
         }
-        return merged.toArray(new int[merged.size()][]);
-        
+
+
+        return result.toArray(new int[result.size()][]);
+
     }
 }
