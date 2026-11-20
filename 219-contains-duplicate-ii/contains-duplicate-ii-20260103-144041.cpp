@@ -3,8 +3,8 @@
 // Difficulty: Easy
 // Language:   C++
 // Submitted:  2026-01-03 14:40:41
-// Runtime:    64 ms (beats 99.76%)
-// Memory:     98.7 MB (beats 99.57%)
+// Runtime:    64 ms (beats 99.75%)
+// Memory:     98.7 MB (beats 99.99%)
 // Topics:     Array, Hash Table, Sliding Window
 
 class Solution {
