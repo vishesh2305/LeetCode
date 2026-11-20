@@ -3,7 +3,7 @@
 **Difficulty:** Easy  
 **Link:** [https://leetcode.com/problems/power-of-three/](https://leetcode.com/problems/power-of-three/)  
 **Topics:** `Math`, `Recursion`  
-**Acceptance:** 51.6%
+**Acceptance:** 51.8%
 
 ---
 
