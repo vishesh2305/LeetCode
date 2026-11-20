@@ -3,7 +3,7 @@
 **Difficulty:** Medium  
 **Link:** [https://leetcode.com/problems/combination-sum-iii/](https://leetcode.com/problems/combination-sum-iii/)  
 **Topics:** `Array`, `Backtracking`  
-**Acceptance:** 73.7%
+**Acceptance:** 74.0%
 
 ---
 
